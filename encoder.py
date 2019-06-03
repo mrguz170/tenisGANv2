@@ -167,7 +167,7 @@ for iters in range(NUM_EPOCHS):
 
 	plotScores(train_loss, [], 'EncoderScores.png', True)
 	
-	if iters % 20 == 0:
+	if iters % 10 == 0:
 		model.save('Encoder.h5')
 		
 		y_faces = model.predict(x_train[:NUM_TEST_FACES], batch_size=BATCH_SIZE)
