@@ -1,3 +1,2 @@
-# Face Editor
-Unsupervised learning to find facial features.
-https://youtu.be/4VAkrUNLKSo
+# TenisGANv2
+Modelos generativos para la creación de calzado tenis
