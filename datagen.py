@@ -36,7 +36,7 @@ y_data = np.empty((NUM_SAMPLES, 3, IMAGE_H, IMAGE_W), dtype=np.uint8)
 ix = 0
 for root, subdirs, files in os.walk(IMAGE_DIR):
 	for file in files:
-		path = root + "\\" + file
+		path = root + "/" + file
 		if not (path.endswith('.jpg') or path.endswith('.png')):
 			continue
 		img = cv2.imread(path)
